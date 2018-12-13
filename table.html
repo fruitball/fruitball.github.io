@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Статистика за  2018-12-12</title>
+    <link rel="stylesheet" href="lib/css/jquery.dataTables.css">
+    <script src="lib/js/jquery-3.3.1.js" charset="utf-8"></script>
+    <script src="lib/js/jquery.dataTables.js" charset="utf-8"></script>
+    <style media="screen">
+      .dataTables_filter {
+        padding: 10px;
+      }
+      .bg-success {
+        background: green !important;
+        color: white !important;
+      }
+      .bg-danger {
+        background: red !important;
+        color: white !important;
+      }
+      .td_center_b {
+        text-align: center;
+        font-weight: bold;
+      }
+      .td_center {
+        text-align: center;
+      }
+
+      table thead, tfoot tr {
+        background: #929292;
+        color: white;
+      }
+       h1, h2, h3, h4 {
+         margin: 0;
+         padding: 0;
+       }
+
+      ul {
+        margin: 0;
+      }
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="">
+      <h4>Статистика за: 2018-12-12</h4>
+      <h4><span style="color:green;">1</span> // <span style="color:red;">3</span>, Всего 4</h4>
+      <p><b>Условное обозначения:</b></p>
+      <ul>
+        <li><b>MF</b> - Минута, когда был получен прогноз.</li>
+        <li><b>ML</b> - Минута, когда матч был завершен.</li>
+        <li><b>RA</b> - Результат прогноза.</li>
+      </ul>
+    </div>
+    <table id="table_id" class="cell-border compact">
+        <thead>
+          <tr>
+            <th>№</th>
+            <th>Дата</th>
+            <th>Лига</th>
+            <th>Команды</th>
+            <th>Стратегия</th>
+            <th>MF</th>
+            <th>Прогноз</th>
+            <th>RA</th>
+            <th>Счет</th>
+            <th>ML</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            
+            <tr class="bg-danger">
+            
+              <td class="td_center_b"></td>
+              <td class="td_center_b">2018-12-13 03:05:39</td>
+              <td>Премьер-лига</td>
+              <td>Харбор Вайв <b>=VS=</b> Уотерхауз</td>
+              <td>🍋 Лимон</td>
+              <td class="td_center_b">25</td>
+              <td><b>Прогноз: Х</b> 
+<b>Кэф(Х):</b> 2.8 
+</td>
+              
+                <td class="td_center_b">_</td>
+              
+              <td class="td_center_b">1:4</td>
+              <td class="td_center_b">93</td>
+            </tr>
+          
+            
+            <tr class="bg-danger">
+            
+              <td class="td_center_b"></td>
+              <td class="td_center_b">2018-12-13 02:09:12</td>
+              <td>Примера Б Насьональ</td>
+              <td>Дефенсорес <b>=VS=</b> Темперлей</td>
+              <td>🍇 Виноград</td>
+              <td class="td_center_b">75</td>
+              <td><b>Прогноз: ТБ(0.5)</b> 
+<b>Кэф(ТБ-0.5):</b> 2.4
+</td>
+              
+                <td class="td_center_b">_</td>
+              
+              <td class="td_center_b">0:0</td>
+              <td class="td_center_b">94</td>
+            </tr>
+          
+            
+            <tr class="bg-danger">
+            
+              <td class="td_center_b"></td>
+              <td class="td_center_b">2018-12-13 11:08:03</td>
+              <td>India Bangalore A Division - 80 mins play</td>
+              <td>Income Tax SC <b>=VS=</b> Parikrama</td>
+              <td>🔱 Вилка</td>
+              <td class="td_center_b">31</td>
+              <td><b>Прибыль(%):</b> 26.79 
+<b>Кэф(1):</b> 2.1 
+<b>Кэф(2):</b> 3.2 
+<b>Ставка(П1):</b> 60.38 
+<b>Ставка(П2):</b> 39.62 
+</td>
+              
+                <td class="td_center_b">_</td>
+              
+              <td class="td_center_b">0:0</td>
+              <td class="td_center_b">83</td>
+            </tr>
+          
+            
+            <tr class="bg-success">
+            
+              <td class="td_center_b"></td>
+              <td class="td_center_b">2018-12-13 11:05:41</td>
+              <td>Клубные товарищеские матчи</td>
+              <td>757 Kepri FC <b>=VS=</b> Медан</td>
+              <td>🍍 Ананас</td>
+              <td class="td_center_b">69</td>
+              <td><b>Прогноз: Х</b> 
+<b>Кэф:</b> 2.0
+</td>
+              
+                <td class="td_center_b">+</td>
+              
+              <td class="td_center_b">1:1</td>
+              <td class="td_center_b">86</td>
+            </tr>
+          
+        </tbody>
+        <tfoot>
+            <tr>
+              <th>№</th>
+              <th>Дата</th>
+              <th>Лига</th>
+              <th>Команды</th>
+              <th>Стратегия</th>
+              <th>MF</th>
+              <th>Прогноз</th>
+              <th>RA</th>
+              <th>Счет</th>
+              <th>ML</th>
+            </tr>
+        </tfoot>
+    </table>
+  </body>
+  <script type="text/javascript">
+    $(document).ready( function () {
+      var t = $('#table_id').DataTable( {
+          "paging":   false,
+          "info":     false,
+          "language": {
+            "search": "Поиск: ",
+          },
+          "columnDefs": [
+            {
+              "searchable": false,
+              "orderable": false,
+              "targets": 0
+            }
+          ],
+          "order": [[ 1, 'asc' ]]
+      } );
+
+      t.on( 'order.dt search.dt', function () {
+          t.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
+              cell.innerHTML = i+1;
+          } );
+      } ).draw();
+    } );
+  </script>
+</html>
